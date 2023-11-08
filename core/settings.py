@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "apps.users",
     "apps.profiles",
     "apps.common",
+    "apps.internships",
     # 3rd party apps
     "corsheaders",
     'drf_yasg',

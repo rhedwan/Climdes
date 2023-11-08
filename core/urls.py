@@ -7,7 +7,6 @@ from drf_yasg import openapi
 from dj_rest_auth.views import PasswordResetConfirmView
 from apps.users.views import CustomUserDetailsView
 
-
 schema_view = get_schema_view(
     openapi.Info(
         title="Climdes API",
@@ -38,4 +37,5 @@ urlpatterns = [
         PasswordResetConfirmView.as_view(),
         name="password_reset_confirm",
     ),
+    path("internship/", include("apps.internships.urls"))
 ]
