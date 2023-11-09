@@ -1,5 +1,8 @@
 
 # Climdes API
+## View Database Schema
+- #### [Database Schema](https://dbdiagram.io/d/Climdes-Communities-64e6356202bd1c4a5e48f6ff)
+
 
 # Getting Started
 
