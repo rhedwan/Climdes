@@ -24,11 +24,10 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
     path(
-        "swagger/",
+        "",
         schema_view.with_ui("swagger", cache_timeout=0),
         name="schema-swagger-ui",
     ),
-
     path("api/v1/auth/user/", CustomUserDetailsView.as_view(), name="user_details"),
     path("api/v1/auth/", include("dj_rest_auth.urls")),
     path("api/v1/auth/registration/", include("dj_rest_auth.registration.urls")),
@@ -37,5 +36,5 @@ urlpatterns = [
         PasswordResetConfirmView.as_view(),
         name="password_reset_confirm",
     ),
-    path("internship/", include("apps.internships.urls"))
+    path("internship/", include("apps.internships.urls")),
 ]
