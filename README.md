@@ -1,8 +1,8 @@
-
 # Climdes API
-## View Database Schema
-- #### [Database Schema](https://dbdiagram.io/d/Climdes-Communities-64e6356202bd1c4a5e48f6ff)
 
+## View Database Schema
+
+- #### [Database Schema](https://dbdiagram.io/d/Climdes-Communities-64e6356202bd1c4a5e48f6ff)
 
 # Getting Started
 
@@ -17,12 +17,12 @@ Install project dependencies:
 
     $ pip install -r requirements.txt
 
-
 Then simply apply the migrations:
 
     $ python manage.py migrate
 
-
 You can now run the development server:
 
     $ python manage.py runserver
+
+You can now view the API documentation on [127.0.0.1:8000](http://127.0.0.1:8000/)
